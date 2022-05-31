@@ -9,6 +9,7 @@ This project aims at providing certain level of predictability to users of SaaS 
 
 # Development / Runtime environments
 Programming language: Python
+
 Public Cloud: AWS
 
 # Expected outcomes
