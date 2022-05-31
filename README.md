@@ -8,8 +8,8 @@ during the billing period. The chargeable services are defined by the SaaS vendo
 This project aims at providing certain level of predictability to users of SaaS systems about their expected billing. Potentially, this could be made feasible by collecting the trend of users’ consumption of SaaS services as a time-series data and running machine learning based prediction algorithms on such data.
 
 # Development / Runtime environments
-###Programming language: Python
-###Public Cloud: AWS
+Programming language: Python
+Public Cloud: AWS
 
 # Expected outcomes
 Project report
