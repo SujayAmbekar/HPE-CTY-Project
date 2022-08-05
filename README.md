@@ -1,25 +1,42 @@
-# HPE-CTY-Project
-Predicting cloud storage consumption using time-series analysis
+# hpe-cty-app
 
-# Abstract
-Generally, users of SaaS systems are charged based on the volume of services they consumed
-during the billing period. The chargeable services are defined by the SaaS vendor, and it differs in each system. For example, SaaS systems in storage/backup domains might provide data storage as a functionality and they may charge their users based on the amount of storage space they consumed.
+# Predicting cloud storage consumption using time-series analysis
 
-This project aims at providing certain level of predictability to users of SaaS systems about their expected billing. Potentially, this could be made feasible by collecting the trend of users’ consumption of SaaS services as a time-series data and running machine learning based prediction algorithms on such data.
+Application uses time-series based data for prediction of future trend of storage consumption
 
-# Development / Runtime environments
-Programming language: Python
+Forecast trends for the specified time interval in the future on the trained model
 
-Public Cloud: AWS
+Storage consumption prediction in real-time : Model trains in real time while giving future prediction 
 
-# Expected outcomes
-Project report
+### Client Libraries
+- ReactJS
+- Axios
+- React-google-charts
+- Material UI
 
-Demonstrate a running web application which predicts the future trend of cloud storage
-consumption data based on the past data:
+### Backend(Python) Libraries
+- Flask_Cors==3.0.10
+- flask_restful==0.3.9
+- matplotlib==3.5.1
+- numpy==1.21.2
+- pandas==1.3.2
+- pmdarima==1.8.5
+- scikit_learn==1.1.1
+- tensorflow==2.9.1
+- xgboost==1.6.1
 
-1.Application uses time-series based data for prediction of future trend
 
-2.Application uses machine learning algorithms for prediction
+### Steps to run
+#### Client
+``` 
+cd client
+npm install
+npm start
+```
 
-3.Application forecasts the trend for the specified time interval
+### Flask backend
+``` 
+Create new environment(preferable, For conda: conda create --name myenv, conda activate myenv)
+pip install -r requirements.txt
+flask run
+```
