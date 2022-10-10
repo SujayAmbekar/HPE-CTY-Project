@@ -2,11 +2,25 @@
 
 # Predicting cloud storage consumption using time-series analysis
 
-Application uses time-series based data for prediction of future trend of storage consumption
+• Application uses time-series based data for prediction of future trend of storage consumption
 
-Forecast trends for the specified time interval in the future on the trained model
+• Forecast trends for the specified time interval in the future on the trained model
 
-Storage consumption prediction in real-time : Model trains in real time while giving future prediction 
+• Storage consumption prediction in real-time : Model trains in real time while giving future prediction 
+
+• Built a web application using React as frontend and Flask as
+backend.
+
+• Generated a dataset using python scripts for different usage
+patterns.
+
+• Implemented a variety of forecasting models like ARIMA, Au-
+toArima, LR, XGB, RNN-LSTM and Prophet.
+
+• Analyzed the ML models based on their MAE, MSE, R2 and
+RMSE scores.
+• Got an accuracy of around 85% on increasing-decreasing data
+and 95% on seasonal data.
 
 ### Client Libraries
 - ReactJS
